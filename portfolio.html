@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web studio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -13,7 +19,7 @@
     <header class="header">
         <a class="logo" lang="en" href="./index.html"><span class="accent">Web</span>Studio</a>
         <nav class="nav">
-            <ul class="header-list">
+            <ul class="header-list list">
                 <li class="header-item">
                     <a class="header-link" href="./index.html">Студія</a>
                 </li>
@@ -25,7 +31,7 @@
                 </li>
             </ul>
         </nav>
-        <ul class="header-list">
+        <ul class="header-list list">
             <li class="header-item">
                 <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -37,15 +43,15 @@
     <main>
         <!-- Проекти -->
         <section class="projects">
-            <h2 hidden>Проекти</h2>
-            <ul class="filters-list">
+            <h1 hidden>Проекти</h1>
+            <ul class="filters-list list">
                 <li class="fiters-item"><button class="filters-btn" type="button">Усі</button></li>
                 <li class="fiters-item"><button class="filters-btn" type="button">Веб-сайти</button></li>
                 <li class="fiters-item"><button class="filters-btn" type="button">Додатки</button></li>
                 <li class="fiters-item"><button class="filters-btn" type="button">Дизайн</button></li>
                 <li class="fiters-item"><button class="filters-btn" type="button">Маркетинг</button></li>
             </ul>
-            <ul class="project-list">
+            <ul class="project-list list">
                 <li class="project-item">
                     <img class="project-img" src="./images/portfolio/img1.jpeg" alt="Розкритий ноутбук" width="370">
                     <h3 class="project-name">Технокряк</h3>
@@ -99,12 +105,20 @@
     <footer class="footer">
         <a class="footer-logo" lang="en" href=""><span class="accent">Web</span>Studio</a>
         <address class="footer-adress">
-            <a class="footer-link" href="https://goo.gl/maps/zwRMYUGouhkKtX1Y8" target="_blank"
-                rel="noopener noreferrer">
-                м. Київ, пр-т Лесі Українки, 26
-            </a>
-            <a class="footer-link link-cl" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer-link link-cl" href="tel:+380961111111">+38 096 111 11 11</a>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a class="footer-link" href="https://goo.gl/maps/zwRMYUGouhkKtX1Y8" target="_blank"
+                        rel="noopener noreferrer">
+                        м. Київ, пр-т Лесі Українки, 26
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link link-cl" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link link-cl" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
         </address>
     </footer>
 </body>
